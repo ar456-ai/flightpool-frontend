@@ -87,3 +87,30 @@ header .fa{
 .how-work_subtitle {
     font-size: 1.2em;
 }
+.trust_item{
+    padding:90px 0;
+}
+.trust_item:first-child{
+    background-image: url('../../img/scale.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+.trust_title{
+    font-size: 64px;
+    color:white !important;
+}
+.trust_list{
+    display:flex;
+    flex-wrap:wrap;
+    gap:32px;
+    justify-content: space-between;
+}
+.trust_card{
+    flex:1 1 calc(33% - 32px);
+    border-radius:16px 16px 0 0;
+    overflow:hidden;
+    box-shadow: 1 9px 10px rgba(0, 0, 0, 0);
+    
+}
